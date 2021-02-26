@@ -222,9 +222,10 @@ CENTOS8_RELEASE_NAME = 'CentOS Linux release 8'
 FEDORA_RELEASE_NAME = 'Fedora release'
 OPEN_SUSE_LEAP_RELEASE_NAME = 'openSUSE Leap'
 SUSE_RELEASE_NAME = 'SUSE Linux Enterprise Server'
+ALPINE_RELEASE_NAME = 'Alpine Linux'
 
 SKIP_NO_LIBWRAP_RELEASES = [RHEL8_RELEASE_NAME, CENTOS8_RELEASE_NAME, FEDORA_RELEASE_NAME, OPEN_SUSE_LEAP_RELEASE_NAME,
-                            SUSE_RELEASE_NAME]
+                            SUSE_RELEASE_NAME, ALPINE_RELEASE_NAME]
 
 
 def errcheck(ret, func, args):
